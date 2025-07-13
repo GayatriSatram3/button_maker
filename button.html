@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="button.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-container flex-center">
+        <h1 class="heading">Button Maker</h1>
+        <div class="bg ">
+            <p class="title">BACKGROUND COLOR</p>
+            <input type="text" class="input-element" id="bgColor"/>
+            <p class="title">FONT COLOR</p>
+            <input type="text" class="input-element"id="fontColor"/>
+            <p class="title">FONT SIZE(in px)</p>
+            <input type="text" class="input-element"id="fontSize"/>
+            <p class="title">FONT WEIGHT</p>
+            <input type="text" class="input-element" id="fontWeight" />
+            <p class="title">PADDING(in px)</p>
+            <input type="text" class="input-element" id="paddingPixel" />
+            <p class="title">BORDER RADIUS(in px)</p>
+            <input type="text" class="input-element" id="borderRadius" />
+            <div class="align-right">
+                <button class="btn" onClick="applyButton()">APPLY</button>
+            </div>
+            <div class="align-center">
+                <button id="customButton">CUSTOM BUTTON</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="button.js"></script>
+</body>
+</html>
